@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'UiPathLabel'
-    }
+    agent any  // Updated from 'label "UiPathLabel"' to run on any available agent
 
     environment {
         MAJOR = '1'
