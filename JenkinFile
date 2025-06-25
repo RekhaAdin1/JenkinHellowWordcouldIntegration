@@ -33,7 +33,7 @@ pipeline {
                         identityUrl: ''
                     ),
                     orchestratorAddress: 'https://cloud.uipath.com/',
-                    orchestratorTenant: 'techy_automation',
+                    orchestratorTenant: 'DefaultTenant',
                     outputPath: '${WORKSPACE}\\Output',
                     outputType: 'Process',
                     projectJsonPath: 'D:\\UiPath\\JenkinHellowordCloudIntegration\\project.json',
@@ -68,7 +68,7 @@ pipeline {
                     folderName: 'Jenkins',
                     ignoreLibraryDeployConflict: false,
                     orchestratorAddress: 'https://cloud.uipath.com/',
-                    orchestratorTenant: 'techy_automation',
+                    orchestratorTenant: 'DefaultTenant',
                     packagePath: '${WORKSPACE}\\Output',
                     processName: 'TestJenkinsDeployedPackage',
                     processNames: '',
