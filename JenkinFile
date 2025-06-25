@@ -27,7 +27,7 @@ pipeline {
                 UiPathPack(
                     credentials: ExternalApp(
                         accountForApp: 'techy_automation',
-                        applicationId: '0538c378-25d0-4f09-8a93-e6d768dfbf18',
+                        applicationId: '8764fc07-a44b-457c-9601-bea2538480b8',
                         applicationScope: 'OR.Assets OR.BackgroundTasks OR.Execution OR.Folders OR.Jobs OR.Machines.Read OR.Monitoring OR.Robots.Read OR.Settings.Read OR.TestSetExecutions OR.TestSets OR.TestSetSchedules OR.Users.Read',
                         applicationSecret: 'UiPathSecretKey',
                         identityUrl: ''
@@ -58,7 +58,7 @@ pipeline {
                     createProcess: true,
                     credentials: ExternalApp(
                         accountForApp: 'techy_automation',
-                        applicationId: '0538c378-25d0-4f09-8a93-e6d768dfbf18',
+                        applicationId: '8764fc07-a44b-457c-9601-bea2538480b8',
                         applicationScope: 'OR.Assets OR.BackgroundTasks OR.Execution OR.Folders OR.Jobs OR.Machines.Read OR.Monitoring OR.Robots.Read OR.Settings.Read OR.TestSetExecutions OR.TestSets OR.TestSetSchedules OR.Users.Read',
                         applicationSecret: 'UiPathSecretKey',
                         identityUrl: ''
