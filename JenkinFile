@@ -29,7 +29,7 @@ pipeline {
                         accountForApp: 'techy_automation',
                         applicationId: '0538c378-25d0-4f09-8a93-e6d768dfbf18',
                         applicationScope: 'OR.Assets OR.BackgroundTasks OR.Execution OR.Folders OR.Jobs OR.Machines.Read OR.Monitoring OR.Robots.Read OR.Settings.Read OR.TestSetExecutions OR.TestSets OR.TestSetSchedules OR.Users.Read',
-                        applicationSecret: '2NzNP(xY6pBxO(_@',
+                        applicationSecret: 'UiPathSecretKey',
                         identityUrl: ''
                     ),
                     orchestratorAddress: 'https://cloud.uipath.com/',
@@ -60,7 +60,7 @@ pipeline {
                         accountForApp: 'techy_automation',
                         applicationId: '0538c378-25d0-4f09-8a93-e6d768dfbf18',
                         applicationScope: 'OR.Assets OR.BackgroundTasks OR.Execution OR.Folders OR.Jobs OR.Machines.Read OR.Monitoring OR.Robots.Read OR.Settings.Read OR.TestSetExecutions OR.TestSets OR.TestSetSchedules OR.Users.Read',
-                        applicationSecret: '2NzNP(xY6pBxO(_@',
+                        applicationSecret: 'UiPathSecretKey',
                         identityUrl: ''
                     ),
                     entryPointPaths: 'Main.xaml',
