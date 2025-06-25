@@ -50,7 +50,6 @@ pipeline {
         }
     }
   
-  
     stage ('Deploy Package') {
         steps {
             echo "Start deploying the package from ${WORKSPACE}\\Output"
